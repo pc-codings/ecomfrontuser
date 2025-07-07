@@ -6,7 +6,7 @@ const Footer = () => {
     <div>
       <div className="flex flex-col sm:grid grid-cols-[3fr_1fr_1fr] gap-14 my-10 mt-40 text-sm">
         <div>
-          <img className="mb-5 w-32" src={assets.logo} alt="" />
+          <img className="w-40" src={assets.navlogo} alt="" />
           <p className="w-full md:w-2/3 text-gray-600">
             Style isn’t just what you wear — it’s how you express yourself.
           </p>

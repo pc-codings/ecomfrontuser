@@ -20,7 +20,7 @@ const Navbar = () => {
   return (
     <div className='flex items-center justify-between  font-medium'>
          
-      <img src={assets.navlogo} className='w-60 h-25' alt="" />
+      <img src={assets.navlogo} className='w-40 h-25' alt="" />
 
        <ul className='hidden sm:flex gap-5 text-sm text-gray-700'>
             <NavLink to="/" className="flex flex-col items-center gap-1">
